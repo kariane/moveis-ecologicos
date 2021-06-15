@@ -1,5 +1,6 @@
 principal.js
 var banners =
+setInterval(trocaBanner, 1000);
 ["Os melhores do Brasil!", "Qualidade e preço baixo!"];
 var bannerAtual = 0;
 function trocaBanner() {
